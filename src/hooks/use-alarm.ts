@@ -5,7 +5,7 @@ import { useAlarmStore } from '@/stores/alarm';
 
 export function useAlarm() {
   const { play: playSound } = useSound(
-    '/sounds/alarm.mp3',
+    '/moodist/sounds/alarm.mp3',
     { volume: 1 },
     true,
   );
